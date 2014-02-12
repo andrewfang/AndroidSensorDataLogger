@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ASAFSensorDataLoggerPro.iml" filepath="$PROJECT_DIR$/ASAFSensorDataLoggerPro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ASAFSensorDataLoggerPro/ASAFSensorDataLoggerPro-ASAFSensorDataLoggerPro.iml" filepath="$PROJECT_DIR$/ASAFSensorDataLoggerPro/ASAFSensorDataLoggerPro-ASAFSensorDataLoggerPro.iml" />
+    </modules>
+  </component>
+</project>
+
