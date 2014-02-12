@@ -1,5 +1,7 @@
 package com.anthonysutardja.asafsensordataloggerpro;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -40,8 +42,20 @@ public class MainActivity extends ActionBarActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
+        switch (id) {
+            case (R.id.action_about):
+            /* Shows the about message */
+                new AlertDialog.Builder(this)
+                        .setTitle(R.string.action_about)
+                        .setMessage(R.string.about_us)
+                        .setPositiveButton(R.string.about_confirm, new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                // okay
+                            }
+                        })
+                        .show();
+                break;
+
         }
         return super.onOptionsItemSelected(item);
     }

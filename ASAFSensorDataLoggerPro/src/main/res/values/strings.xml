@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">ASAF Sensor Data Logger Pro</string>
+    <string name="app_name">ASAF Logger</string>
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="action_email">Send Data</string>
+    <string name="start">Start</string>
+    <string name="about_us">We are Anthony and Andrew. And we are...</string>
+    <string name="about_confirm">Awesome!</string>
 
+    <string-array name="gesture_array">
+        <item>Up and Down</item>
+        <item>Side to Side</item>
+        <item>The Anthony</item>
+    </string-array>
+    <string-array name="whichHand_array">
+        <item>Right Hand</item>
+        <item>Left Hand</item>
+    </string-array>
 </resources>
