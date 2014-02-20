@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ASAFSensorDataLoggerPro.iml" filepath="$PROJECT_DIR$/ASAFSensorDataLoggerPro.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ASAFSensorDataLoggerPro/ASAFSensorDataLoggerPro-ASAFSensorDataLoggerPro.iml" filepath="$PROJECT_DIR$/ASAFSensorDataLoggerPro/ASAFSensorDataLoggerPro-ASAFSensorDataLoggerPro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GetSensorData.iml" filepath="$PROJECT_DIR$/GetSensorData.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GetSensorData/GetSensorData-GetSensorData.iml" filepath="$PROJECT_DIR$/GetSensorData/GetSensorData-GetSensorData.iml" />
     </modules>
   </component>
 </project>
